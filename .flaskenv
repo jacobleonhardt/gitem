@@ -1,2 +1,3 @@
-FLASK_APP=backend/__init__.py
+FLASK_APP=backend
 FLASK_ENV=development
+FLASK_SECRET_KEY=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
