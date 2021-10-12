@@ -9,4 +9,5 @@ app.config.from_object(Config)
 
 @app.route('/')
 def greeting():
+    print('SECRET:', app.config["SECRET_KEY"])
     return '<h1>Hello</h1>'
